@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FootHalls</string>
+
+    <string-array name="position_array">
+        <item>Forward</item>
+        <item>Right Back</item>
+        <item>Right Midfielder</item>
+        <item>Defensive Midfielder</item>
+        <item>Goalkeeper</item>
+        <item>Striker</item>
+        <item>Defensive Midfielder</item>
+        <item>Left Back</item>
+        <item>Stopper</item>
+        <item>Sweeper</item>
+    </string-array>
+
+</resources>

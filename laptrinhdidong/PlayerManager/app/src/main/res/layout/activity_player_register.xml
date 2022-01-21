@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterScreens.PlayerRegisterActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_splash"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6f000000"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:id="@+id/base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/_20sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register Player"
+                android:textColor="#fff"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:textSize="@dimen/_30ssp"
+                android:layout_marginBottom="@dimen/_40sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:padding="@dimen/_10sdp"
+                android:hint="Name"
+                android:textColorHint="#b9ffffff"
+                android:textColor="#fff"
+                android:inputType="textPersonName"
+                android:background="@drawable/app_edittext_drawable"
+                android:id="@+id/playername"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:padding="@dimen/_10sdp"
+                android:hint="Email"
+                android:textColorHint="#b9ffffff"
+                android:textColor="#fff"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/app_edittext_drawable"
+                android:id="@+id/playeremail"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:padding="@dimen/_10sdp"
+                android:hint="Age"
+                android:textColorHint="#b9ffffff"
+                android:textColor="#fff"
+                android:inputType="numberDecimal"
+                android:background="@drawable/app_edittext_drawable"
+                android:id="@+id/playerage"
+                />
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:padding="@dimen/_10sdp"
+                android:hint="Password"
+                android:textColorHint="#b9ffffff"
+                android:textColor="#fff"
+                android:inputType="textPassword"
+                android:background="@drawable/app_edittext_drawable"
+                android:id="@+id/password"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:padding="@dimen/_10sdp"
+                android:hint="Confirm Password"
+                android:textColorHint="#b9ffffff"
+                android:textColor="#fff"
+                android:inputType="textPassword"
+                android:background="@drawable/app_edittext_drawable"
+                android:id="@+id/confirmpass"
+                />
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:ms_background_color="@color/colorPrimaryDark"
+                app:ms_arrow_tint="#fff"
+                android:textColor="#fff"
+                app:ms_hint="Select Position"
+                app:ms_hint_color="#b9ffffff"
+                />
+
+            <Button
+                android:id="@+id/buttonRegisterPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/_30sdp"
+                android:paddingEnd="@dimen/_30sdp"
+                android:layout_marginStart="@dimen/_50sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/app_button_drawable"
+                android:textColor="#fff"
+                android:textSize="@dimen/_18ssp"
+                android:textAllCaps="false"
+
+                android:text="Register"
+
+
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:onClick="goToPlayerLogin">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:text="Already have an account !"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:text=" Login Now"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

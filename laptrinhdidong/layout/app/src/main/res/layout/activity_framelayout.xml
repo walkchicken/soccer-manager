@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_margin="20dp"
+tools:context=".FramelayoutActivity">
+
+    <ImageButton
+        android:id="@+id/btn_Led8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom|right|center_horizontal"
+        android:background="#FFF"
+        android:onClick="setLed8"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/close" />
+
+    <ImageButton
+        android:id="@+id/btn_Led6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom|center_horizontal|left|center_vertical"
+        android:background="#FFF"
+        android:onClick="setLed6"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/close" />
+
+    <ImageButton
+        android:id="@+id/btn_Led7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="#FFF"
+        android:onClick="setLed7"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/close" />
+
+    <ImageButton
+        android:id="@+id/btn_Led5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|center_horizontal|center_vertical"
+        android:background="#FFF"
+        android:onClick="setLed5"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/close" />
+
+    <ImageButton
+        android:id="@+id/btn_Led4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal|left|center_vertical"
+        android:background="#FFF"
+        android:onClick="setLed4"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/close" />
+
+    <ImageButton
+        android:id="@+id/btn_Led3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|center_horizontal"
+        android:background="#FFF"
+        android:onClick="setLed3"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/close" />
+
+    <ImageButton
+        android:id="@+id/btn_Led2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFF"
+        android:onClick="setLed2"
+        app:srcCompat="@drawable/close"
+        android:scaleType="centerInside" />
+
+    <ImageButton
+        android:id="@+id/btn_Led1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#FFF"
+        android:onClick="setLed1"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/close" />
+
+    <Button
+        android:id="@+id/btn_Turnon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-20dp"
+        android:text="turn on" />
+
+    <Button
+        android:id="@+id/btn_Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="reset" />
+</FrameLayout>

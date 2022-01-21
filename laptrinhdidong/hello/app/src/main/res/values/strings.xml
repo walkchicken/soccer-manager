@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">HelloAndroid18CT2</string>
+    <string name="title_activity_quotation" translatable="false">QuotationActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="button_main_music" translatable="false">Music App</string>
+    <string name="button_main_quo" translatable="false">Quotation</string>
+    <string name="button_main_hello" translatable="false">Start Hello</string>
+    <string name="button_main_login" translatable="false">Login</string>
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="button_quo" translatable="false">Show Quotations</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
+    <string name="login_title" translatable="false">Welcome!</string>
+    <string name="login_btn" translatable="false">Login</string>
+    <string name="login_user" translatable="false">Username</string>
+    <string name="login_pass" translatable="false">Password</string>
+    <string name="login_signup" translatable="false">Don\'t have account? Sign Up</string>
+    <string name="music_pause" translatable="false">Pause</string>
+    <string name="music_play" translatable="false">Play</string>
+
+    <string name="swt" translatable="false">Color Mode</string>
+    <string name="logo1" translatable="false">Logo 1</string>
+    <string name="logo2" translatable="false">Logo 2</string>
+    <string name="logo3" translatable="false">Logo 3</string>
+    <string name="w" translatable="false">Weight (kg)</string>
+    <string name="h" translatable="false">Height (cm)</string>
+    <string name="result" translatable="false">Result:</string>
+    <string name="btnrs" translatable="false">BMI Result</string>
+    <string name="btnexit" translatable="false">Exit</string>
+
+</resources>

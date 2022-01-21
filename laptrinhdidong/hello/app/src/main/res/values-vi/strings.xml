@@ -1,0 +1,19 @@
+<resources>
+    <string name="login_title">Xin Chào !!</string>
+    <string name="login_btn">Đăng Nhập</string>
+    <string name="login_user">Nhập tên đăng nhập</string>
+    <string name="login_pass">Nhập mật khẩu </string>
+    <string name="login_signup">Chưa có tài khoản? Đăng ký</string>
+    <string name="music_pause" translatable="false">Tạm dừng</string>
+    <string name="music_play" translatable="false">Chơi</string>
+
+    <string name="swt" translatable="false">Màu nền</string>
+    <string name="logo1" translatable="false">Ảnh 1</string>
+    <string name="logo2" translatable="false">Ảnh 2</string>
+    <string name="logo3" translatable="false">Ảnh 3</string>
+    <string name="w" translatable="false">Cân nặng (kg)</string>
+    <string name="h" translatable="false">Chiều cao (cm)</string>
+    <string name="result" translatable="false">Kết quả:</string>
+    <string name="btnrs" translatable="false">Kết quả BMI</string>
+    <string name="btnexit" translatable="false">Thoát</string>
+</resources>

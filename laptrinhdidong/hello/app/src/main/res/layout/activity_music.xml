@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/music_Background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C1D51"
+    tools:context=".MusicActivity">
+
+    <TextView
+        android:id="@+id/txt_timeend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="350dp"
+        android:layout_marginBottom="164dp"
+        android:text="00:00"
+        android:textSize="20sp"></TextView>
+
+    <ImageButton
+        android:id="@+id/btn_Prev"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="#4C1D51"
+        android:scaleType="centerCrop"
+        android:src="@drawable/back">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/btn_Pause"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="224dp"
+        android:layout_marginLeft="224dp"
+        android:layout_marginBottom="49dp"
+        android:background="#4C1D51"
+        android:foregroundGravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/stop">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/btn_Next"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="313dp"
+        android:layout_marginLeft="313dp"
+        android:layout_marginBottom="50dp"
+        android:background="#4C1D51"
+        android:scaleType="centerCrop"
+        android:src="@drawable/next">
+
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/txt_Music_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Ten Bai Hat"
+        android:textColor="#FFF"
+        android:textSize="30sp"></TextView>
+
+    <ImageButton
+        android:id="@+id/btn_Play"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginBottom="49dp"
+        android:background="#4C1D51"
+        android:scaleType="centerCrop"
+        android:scrollbarTrackHorizontal="@android:drawable/ic_media_play"
+        android:src="@drawable/play">
+
+    </ImageButton>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="128dp">
+
+    </SeekBar>
+
+    <TextView
+        android:id="@+id/txt_timestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="164dp"
+        android:text="00:00"
+        android:textSize="20sp"></TextView>
+
+    <ImageView
+        android:id="@+id/img_View"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="254dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/disk" />
+
+    <TextView
+        android:id="@+id/txt_content"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginBottom="180dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp" />
+
+</RelativeLayout>

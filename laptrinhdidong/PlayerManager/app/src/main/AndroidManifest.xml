@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.playermanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB8zKwkdkFusWIn5SeROe7WMuYwUeUhmis" />
+        <activity
+            android:name=".RegisterScreens.PlayerRegisterActivity"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterScreens.HallRegisterActivity"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            android:exported="false" />
+        <activity
+            android:name=".MainScreens.SplashActivity"
+            android:theme="@style/SplashTheme"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainScreens.PlayerHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainScreens.HallHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainScreens.HallDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainScreens.EventListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginScreens.PlayerLoginActivity"
+            android:theme="@style/SplashTheme"
+            android:exported="false" />
+        <activity
+            android:name=".LoginScreens.HallLoginActivity"
+            android:theme="@style/SplashTheme"
+            android:exported="false" />
+        <activity
+            android:name=".LoginScreens.ChooseLoginTypeActivity"
+            android:theme="@style/SplashTheme"
+            android:exported="false" />
+        <activity
+            android:name=".LoginScreens.AdminLoginActivity"
+            android:theme="@style/SplashTheme"
+            android:exported="false" />
+        <activity
+            android:name=".MainScreens.AdminHomeActivity"
+            android:exported="false"/>
+    </application>
+
+</manifest>

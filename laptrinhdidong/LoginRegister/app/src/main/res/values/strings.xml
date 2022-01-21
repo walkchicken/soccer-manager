@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Club Manager</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="club">Club</string>
+    <string name="Email">Email</string>
+    <string name="login_here">Login Here</string>
+    <string name="Password">Password</string>
+    <string name="signup_here">SignUp Here</string>
+    <string name="welcome">Welcome!</string>
+    <string name="logout">LogOut</string>
+    <string name="edit_photo">Edit Photo</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="to_do">To do</string>
+    <string name="enter_a_note">Enter a note</string>
+    <string name="club_name">Club name</string>
+    <string name="country">Country</string>
+    <string name="league">League</string>
+    <string name="stadium">Stadium</string>
+    <string name="coach">Coach</string>
+    <string name="total">Total</string>
+    <string name="clubmanager">Club Manager</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="title_activity_control">ControlActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="upload">UPLOAD</string>
+    <string name="choose">CHOOSE</string>
+    <string name="df">Defender</string>
+    <string name="fw">Forward</string>
+    <string name="mf">Midfielder</string>
+    <string name="gk">Goalkeeper</string>
+
+</resources>
